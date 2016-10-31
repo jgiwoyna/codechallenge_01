@@ -6,11 +6,12 @@ var arr = [3, 4, 6, 0];
 
 // 2 - Remove the values 4 & 6 from
 // arr using the splice method.
+arr.splice(1, 2);
 
 // 3 - Use the sort method to order
 // each array value from smallest
 // to largest.
-
+arr.sort();
 // 4 - Use the forEach method to
 // halve the value of each
 // number in the array.
